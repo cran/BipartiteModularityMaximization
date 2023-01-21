@@ -29,7 +29,7 @@ write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append 
     (details vary across different flavors of Linux).
 
 More details can be found in documents of
-[RStudio](https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites)
+[RStudio](https://support.posit.co/hc/en-us/articles/200486498-Package-Development-Prerequisites)
 or [R](https://cran.r-project.org/doc/manuals/r-devel/R-admin.pdf).
 
 ### Installation from CRAN
@@ -90,6 +90,12 @@ more details.
 
 ## Related library
 
-The biclusters can be visualized using ExplodeLayout
+The biclusters can be visualized using
+[ExplodeLayout](https://github.com/DIVA-Lab-UTMB/ExplodeLayout) or
 [epl](https://github.com/UTMB-DIVA-Lab/epl) described in [Bhavnani
 (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543384/pdf/2613038.pdf).
+A more convenient wrapper of
+[BipartiteModularityMaximization](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization)
+and [ExplodeLayout](https://github.com/DIVA-Lab-UTMB/ExplodeLayout) can
+be found in
+[UtilitiesDIVA](https://github.com/DIVA-Lab-UTMB/UtilitiesDIVA).
